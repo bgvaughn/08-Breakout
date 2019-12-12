@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://Scripts/world.gd" type="Script" id=1]
 [ext_resource path="res://Scripts/paddle.gd" type="Script" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://Scenes/Tile.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Assets/OstrichSans-Heavy.otf" type="DynamicFontData" id=6]
 [ext_resource path="res://Scripts/score.gd" type="Script" id=7]
+[ext_resource path="res://Scripts/Lives.gd" type="Script" id=8]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 53.311, 12.2888 )
@@ -288,10 +289,11 @@ text = "Score"
 script = ExtResource( 7 )
 
 [node name="Lives" type="Label" parent="."]
-margin_left = 990.321
-margin_top = 1.31704
-margin_right = 1023.32
-margin_bottom = 15.317
+margin_left = 951.0
+margin_top = 1.0
+margin_right = 1016.0
+margin_bottom = 15.0
 custom_fonts/font = SubResource( 3 )
 text = "Lives"
 align = 2
+script = ExtResource( 8 )
