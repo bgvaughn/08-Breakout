@@ -1,2 +1,1 @@
-# Project-Template-Godot
-A generic template for a Godot project
+# Projet 08 Breakout 
